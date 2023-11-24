@@ -1,11 +1,11 @@
-body {
+/* body {
   background-color: #f5f5f5;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   color: #333;
   margin: 0;
   padding: 0;
-}
+} */
 
 #cabecera,
 #simplex_tabs,
@@ -18,7 +18,7 @@ body {
   padding: 1rem;
   border-radius: 1rem;
   border: 0.5vmin solid #05060f;
-  box-shadow: 0.4rem 0.4rem #05060f;
+  /* box-shadow: 0.4rem 0.4rem #05060f; */
   overflow: hidden;
   color: black;
 }
@@ -29,13 +29,16 @@ body {
   box-shadow: 0.3rem 0.3rem #05060f;
   overflow: hidden;
   color: black;
-  width: 80em;
+  width: 48em;
   font-size: 16px;
   display: flex;
   font-weight: bold;
   color: black;
   justify-content: center;
+  height: 50px;
+  align-items: center;
 }
+
 
 #cabecera div {
   float: right;
