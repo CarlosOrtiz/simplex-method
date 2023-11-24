@@ -5,11 +5,19 @@
   margin: 2em auto;
 }
 #cabecera {
-  font-weight: bold;
-  text-align: center;
-  font-size: 1.7em;
-  padding: 0.7em 0em;
+  background: #0d810d;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 0.5vmin solid #05060f;
+  box-shadow: 0.4rem 0.4rem #05060f;
+  overflow: hidden;
+  color: black;
   width: 45.5em;
+  font-size: 16px;
+  display: flex;
+  font-weight: bold;
+  color: white;
+  justify-content: center;
 }
 #cabecer0a div {
   float: right;
