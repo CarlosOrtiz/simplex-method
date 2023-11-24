@@ -40,18 +40,33 @@
     <link type="text/css" href="css/jsx.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="cabecera">
-      <h2>Método simplex</h2>
+    <div id="cabecera" class="ui-state-default ui-corner-all">
+      Método símplex
     </div>
-    <div id="simplex_tabs">
-      <ul>
-        <li><a href="#tab_simplex">Simplex</a></li>
-        <li><a href="#tab_grafica">Gráfica</a></li>
-      </ul>
+    <div id="simplex_tabs" style="
+    border: none;
+    background: unset;
+    
+
+">
+<div style="display: flex;
+flex-direction: column;
+justify-content: center;">
+  <ul style="border: none;background: unset;display: flex;align-items: center;align-content: center;justify-content: center;">
+    <li style="
+    border-radius: 15px;
+"><a href="#tab_simplex">Simplex</a></li>
+    <li style="
+    border-radius: 15px;
+"><a href="#tab_grafica">Gráfica</a></li>
+  </ul>
+
+</div>
+      
       <div id="tab_simplex">
         <div id="jsx_funcion_objetivo">
           <div class="titulo ui-state-default ui-corner-all">
-            Función Objetivo
+            Funci&oacute;n objetivo
           </div>
           <div class="contenido ui-corner-all">
             <div id="jsx_fo_tipo">
@@ -123,6 +138,7 @@
                     </div>
                     <div id="jsx_res_fo_nombre">
                       <button id="jsx_res_fo_boton">A&ntilde;adir</button>
+                      <input type="text" id="jsx_res_fo_nom"  style="display: none;" />
                     </div>
                   </div>
                 </td>
